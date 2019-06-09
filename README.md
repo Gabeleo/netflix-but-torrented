@@ -1,7 +1,8 @@
 # Netflix but Torrented
 an aggregate of multiple torrent sites into a single search engine and streaming platform
 
-all depedencies are located in the requirements.txt file
+All depedencies are located in the requirements.txt file
+	
 run `pip install -r /path/to/requirements.txt` to automatically install them
 
 Selenium: https://selenium-python.readthedocs.io/
