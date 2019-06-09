@@ -3,7 +3,7 @@
     <title>Test Torrent</title>
 </head>
 <h2>Test Torrent</h2>
-<form method="POST">
-    <input name="text">
-    <input type="submit">
+<form  action="{{ url_for('result') }}" method="POST">
+    <input name="text" name="text">
+    <input type="submit" value="Submit">
 </form>

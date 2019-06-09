@@ -9,19 +9,21 @@ class Driver(object):
     
     ih = 'strings are immutable mate'
 
-    def __init__(self, url):
+    def __init__(self, url, query):
         options = Options()
         options.add_argument('-headless')
         driver = webdriver.Firefox(options=options)
         driver.get(url)
 
-        self.search(driver)
+        self.query = query
+
+        self.search(driver, query)
         self.get_search_results(driver)
         self.play(driver, self.get_search_results(driver))
         driver.quit()
         
-    def search(self, driver):
-        movie_input = input('Search for Movies: ')
+    def search(self, driver, query):
+        movie_input = query
 
         #searches for the search bar and executes a search query
         search_elem = driver.find_element_by_xpath('/html/body/div/form/p[1]/input')
@@ -55,7 +57,3 @@ class Driver(object):
 
     def __str__(self):
         return ih
-
-
-#if __name__ == '__main__':
-    #Driver('https://thepiratebay.org/')
