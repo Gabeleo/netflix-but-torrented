@@ -1,6 +1,9 @@
 # Netflix but Torrented
 an aggregate of multiple torrent sites into a single search engine and streaming platform
 
+all depedencies are located in the requirements.txt file
+run `pip install -r /path/to/requirements.txt` to automatically install them
+
 Selenium: https://selenium-python.readthedocs.io/
   
 	Pip install selenium
@@ -18,3 +21,4 @@ Flask: http://flask.pocoo.org/docs/0.12/installation/
 	sets itself up, as a straightforward, clear entry into backend development
 	
 TIP: Make sure to set `set FLASK_APP=__init__.py` within the command line after activating the virtual env, inside the flaskr directory.
+
