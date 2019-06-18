@@ -1,10 +1,11 @@
 import os
 from flask import Flask, redirect, request, render_template
-from htpc import Driver
+import htpc
+
 
 
 def create_app(test_config=None):
-    # create and configure the app
+    """Creates and configures the Flask application."""
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
         SECRET_KEY='dev',
@@ -31,10 +32,8 @@ def create_app(test_config=None):
     @app.route('/result', methods=['GET', 'POST'])
     def result():
         if request.method == 'POST':
-            result = request.form['text']
-            dr = Driver("https://thepiratebay.org/", result)
-            infohash = dr.__str__()
-            return redirect(infohash)
-        
+            query = request.form['text']
+            htpc.create("https://thepiratebay.org/", query)
+            return redirect(htpc.infohash)
 
     return app

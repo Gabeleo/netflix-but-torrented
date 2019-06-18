@@ -1156,4 +1156,145 @@ console.error: BroadcastService:
 [Child 9828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child 9828, Chrome_[Parent 16092, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child 15476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 15476, 
+[Child 15476, 1560884657632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.R727YNDNDlHG"
+*** You are running in headless mode.
+1560884657966	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560884657966	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560884657966	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560884659176	Marionette	INFO	Listening on port 50775
+1560884659651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560884663704	Marionette	INFO	Stopped listening on port 50775
+[Parent 4824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chr[Parent 4824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3132, Chrome_1560884783474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.KWveQj3MgH49"
+*** You are running in headless mode.
+1560884783815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560884783815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560884783815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560884785093	Marionette	INFO	Listening on port 51009
+1560884785504	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221560878717273%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+ission: mozillaAddons
+1560884804262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560884804262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560884805435	Marionette	INFO	Listening on port 51074
+1560884805461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560884809777	Marionette	INFO	Stopped listening on port 51074
+[Parent 14268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560894286455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.rOjPZaDmMtsh"
+*** You are running in headless mode.
+1560894286729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560894286730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560894286730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560894287717	Marionette	INFO	Listening on port 57668
+1560894287961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560894292020	Marionette	INFO	Stopped listening on port 57668
+[Child 7032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7032, Chrome_ChildThr[Parent 2084, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 3[Parent 2084, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5468, Chrome_C1560894354586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.rrG1bbx3cXQC"
+*** You are running in headless mode.
+1560894354870	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560894354870	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560894354870	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560894355884	Marionette	INFO	Listening on port 57813
+1560894356092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560894360188	Marionette	INFO	Stopped listening on port 57813
+[Parent 7156, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chrom[Parent 7156, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12052, Chrome_ChildThread] WARNING:[Parent 7156, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7464, Chrome_C1560894519962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.57UVqckgWJds"
+*** You are running in headless mode.
+1560894520228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560894520228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560894520228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560894521203	Marionette	INFO	Listening on port 58112
+1560894521470	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560894526470	Marionette	INFO	Stopped listening on port 58112
+[Child 3020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 15112, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 15112, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1928, Chrome_ChildThread] W1560895320957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.qNzNzzS84KxI"
+*** You are running in headless mode.
+1560895321227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560895321228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560895321228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560895322160	Marionette	INFO	Listening on port 59002
+1560895322467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560895326902	Marionette	INFO	Stopped listening on port 59002
+[Child 1844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3640, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10452, Chrome_ChildThread] WARNING:[Parent 3640, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6996, Chrome_Ch1560895466105	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.RU3HM9errLKj"
+*** You are running in headless mode.
+1560895466373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560895466373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560895466373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560895467272	Marionette	INFO	Listening on port 59214
+1560895467613	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560895472804	Marionette	INFO	Stopped listening on port 59214
+[Parent 2404, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2404, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820[Parent 2404, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12824, Chrom1560895545362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.qvHEj8ORy6NI"
+*** You are running in headless mode.
+1560895545627	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560895545628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560895545628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560895546594	Marionette	INFO	Listening on port 59355
+1560895546868	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560895550414	Marionette	INFO	Stopped listening on port 59355
+[Child 14524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14524, C[Parent 10812, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 31560895600643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\benja\\AppData\\Local\\Temp\\rust_mozprofile.xxc5cgERTGrt"
+*** You are running in headless mode.
+1560895600907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560895600908	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560895600908	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560895601952	Marionette	INFO	Listening on port 59470
+1560895602150	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://thepiratebay.org/static/js/jquery.min.js line 2 > eval line 1 > eval, line 1: TypeError: imdburl is undefined
+1560895606714	Marionette	INFO	Stopped listening on port 59470
+[Child 2084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11956, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9660, Chrome_ChildThread] WARNING: pipe erro[Parent 11956, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
