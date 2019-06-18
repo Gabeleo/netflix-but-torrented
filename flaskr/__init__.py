@@ -1,6 +1,5 @@
 import os
 from flask import Flask, redirect, request, render_template
-from forms import SearchForm
 from htpc import Driver
 
 
@@ -25,17 +24,17 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    # a simple page that says hello
-    @app.route('/', methods=['GET', 'POST'])
+    @app.route('/')
     def index():
-        if request.method == 'POST':
-            input_text = request.form['text']
-            return render_template('index.html')
+        return render_template('index.html')
 
-    @app.route('/result')
-    def result(input_text:
-        dr = Driver('https://thepiratebay.org/')
-        infohash = dr.__str__()
-        return redirect(infohash, port=302)
+    @app.route('/result', methods=['GET', 'POST'])
+    def result():
+        if request.method == 'POST':
+            result = request.form['text']
+            dr = Driver("https://thepiratebay.org/", result)
+            infohash = dr.__str__()
+            return redirect(infohash)
+        
 
     return app
