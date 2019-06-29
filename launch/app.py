@@ -1,6 +1,6 @@
 import os
 from flask import Flask, redirect, request, render_template
-from depend import htpc
+from dependencies import htpc
 
 app = Flask(__name__)
 
