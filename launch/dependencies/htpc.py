@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 """Selenium web driver"""
 infohash = None
@@ -10,7 +10,11 @@ def create(url, query):
     #options = Options()
     #options.add_argument('-headless')
 
-    driver = webdriver.Firefox(executable_path="C:/Users/Gabe/geckodriver/geckodriver.exe")
+    firefox_capabilities = DesiredCapabilities.FIREFOX
+    firefox_capabilities['marionette'] = True
+    firefox_capabilities['binary'] = '/usr/bin/firefox'
+
+    driver = webdriver.Firefox(capabilities=firefox_capabilities, executable_path=/home/gabeleo/mysite/firefox/geckodriver.exe)
     driver.get(url)
 
     search(driver, query)
