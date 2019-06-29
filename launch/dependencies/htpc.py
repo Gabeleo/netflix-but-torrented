@@ -7,10 +7,10 @@ infohash = None
 
 # @staticmethod
 def create(url, query):
-    options = Options()
-    options.add_argument('-headless')
+    #options = Options()
+    #options.add_argument('-headless')
 
-    driver = webdriver.Firefox(options=options, executable_path="C:/Users/Gabe/geckodriver/geckodriver.exe")
+    driver = webdriver.Firefox(executable_path="C:/Users/Gabe/geckodriver/geckodriver.exe")
     driver.get(url)
 
     search(driver, query)
