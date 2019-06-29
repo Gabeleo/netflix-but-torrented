@@ -12,7 +12,7 @@ def create(url, query):
 
     firefox_capabilities = DesiredCapabilities.FIREFOX
     firefox_capabilities['marionette'] = True
-    firefox_capabilities['binary'] = '/usr/bin/firefox'
+    firefox_capabilities['binary'] = '/home/gabeleo/mysite/firefox'
 
     driver = webdriver.Firefox(capabilities=firefox_capabilities, executable_path=/home/gabeleo/mysite/firefox/geckodriver.exe)
     driver.get(url)
