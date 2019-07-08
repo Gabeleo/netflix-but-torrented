@@ -12,7 +12,7 @@ def index():
 def result():
     if request.method == 'POST':
         query = request.form['text']
-        htpc.create("https://thepiratebay.org/", query)
+        
         return redirect(htpc.infohash)
 
 if __name__=='__main__':
