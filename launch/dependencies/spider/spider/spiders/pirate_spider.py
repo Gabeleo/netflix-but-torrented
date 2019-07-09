@@ -1,10 +1,17 @@
 import scrapy
+from scrapy.http.request import Request
+from scrapy.crawler import CrawlerProcess
+import json
 
 class PirateSpider(scrapy.Spider):
     name = "pirate"
     start_urls = [
-            'https://thepiratebay.org/search/infinity%20war/0/99/0'
+            'https://thepiratebay.org/search/'
         ]
+    def start_requests(self):
+        with open('urls.json', 'w') as urls:
+            for url in urls:
+                yield scrapy.Request(url, self.parse)
 
     def parse(self, response):
         resolution = '1080'
@@ -16,3 +23,10 @@ class PirateSpider(scrapy.Spider):
             yield {
                 'title': 'https://instant.io/' + '#' + magnet_link
             }
+    
+process = CrawlerProcess({
+    'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
+})
+
+process.crawl(PirateSpider)
+process.start()
