@@ -1,6 +1,7 @@
 import scrapy
 from scrapy.http.request import Request
 from scrapy.crawler import CrawlerProcess
+from scrapy.exporters import JsonItemExporter
 import json
 
 class PirateSpider(scrapy.Spider):
@@ -23,7 +24,7 @@ class PirateSpider(scrapy.Spider):
             yield {
                 'title': 'https://instant.io/' + '#' + magnet_link
             }
-    
+
 process = CrawlerProcess({
     'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
 })
